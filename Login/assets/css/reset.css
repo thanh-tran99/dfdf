@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0!important;
+}
+input , input:focus{
+    box-shadow: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+}
+body a{
+    text-decoration: none!important ;
+}

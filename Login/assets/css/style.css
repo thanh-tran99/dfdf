@@ -1,0 +1,177 @@
+* {
+  font-family: "Mulish";
+}
+body {
+  min-height: 100vh;
+  background: #363740 !important;
+}
+.wrapper-login {
+  margin: 100px auto 0;
+  width: 380px;
+  /* height: 582px; */
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.brand {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+.brand a img.logo-brand {
+  display: block;
+  margin: 0 auto;
+}
+.brand h2.name-brand {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  padding-top: 12px;
+  color: #a4a6b3;
+  opacity: 0.7;
+}
+.heading-login {
+  margin-bottom: 48px;
+}
+.heading-login h1.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  padding-bottom: 12px;
+  color: #252733;
+}
+.heading-login p.desc,
+form .form-input .error {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9fa2b4;
+}
+form .form-input {
+  margin-bottom: 24px;
+  padding: 0 32px;
+}
+form .form-input .label-input {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #9fa2b4;
+  margin-bottom: 6px;
+}
+form .form-input .text-input {
+  padding: 11px 8px 11px 16px;
+  background: #fcfdfe;
+  border: 1px solid #f0f1f7;
+  border-radius: 8px;
+  width: 100%;
+  height: 42px;
+}
+form .form-input span.error {
+  font-style: italic;
+}
+form .form-input #password-input {
+  padding-right: 44px;
+}
+form .form-input .text-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #4b506d;
+  opacity: 0.4;
+}
+form .form-input .wrapper-label-pass {
+  display: flex;
+  justify-content: space-between;
+}
+form .form-input .wrapper-label-pass .forgot-pass {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+  cursor: pointer;
+  transition: all 0.8;
+}
+form .form-input .wrapper-label-pass .forgot-pass:hover {
+  color: #3751ff;
+}
+form .form-input .wrapper-input-pass {
+  position: relative;
+}
+form .form-input .wrapper-input-pass .eye {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  z-index: 1;
+  cursor: pointer;
+  color: #9fa2b4;
+  opacity: 0.8;
+}
+#show-pass{
+  z-index: 10;
+}
+form button.btn-login {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  padding: 15px 24px 13px;
+  background: #3751ff;
+  box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 32px;
+  transition: all 0.3s;
+}
+form button.btn-login:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
+p.create-acc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  margin-top: 32px;
+  padding-bottom: 20px;
+}
+p.create-acc span#sign-up {
+  color: #3751ff;
+  font-weight: 600;
+  padding-left: 5px;
+  transition: all 0.4s;
+}
+p.create-acc span#sign-up:hover {
+  opacity: 0.8;
+}
+.err-input {
+  border: 1px solid red !important;
+}
+@media screen and (max-width: 576px) {
+  .wrapper-login {
+    max-width: 100%;
+  }
+}

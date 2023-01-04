@@ -1,0 +1,98 @@
+export const tableData = [
+  {
+    id: 1,
+    faceIcon: "./assets/images/9.png",
+    ticketName: "Adding Images to Featured Posts",
+    ticketInfo: "Updated 1 day ago",
+    cusName: "Matt Damon",
+    cusDate: "on 24.05.2019",
+    date: "May 26, 2019",
+    time: "8:00 AM",
+    priority: "low",
+    
+  },
+  {
+    id: 2,
+    faceIcon: "./assets/images/10.png",
+    ticketName: "When will I be charged this month?",
+    ticketInfo: "Updated 1 day ago",
+    cusName: "Robert Downey",
+    cusDate: "on 24.05.2019",
+    date: "May 26, 2019",
+    time: "7:30 PM",
+    priority: "high",
+    
+  },
+  {
+    id: 3,
+    faceIcon: "./assets/images/11.png",
+    ticketName: "Payment not going through",
+    ticketInfo: "Updated 2 day ago",
+    cusName: "Christian Bale",
+    cusDate: "on 24.05.2019",
+    date: "May 25, 2019",
+    time: "5:00  PM",
+    priority: "normal",
+    
+  },
+  {
+    id: 4,
+    faceIcon: "./assets/images/12.png",
+    ticketName: "Unable to add replies",
+    ticketInfo: "Updated 2 day ago",
+    cusName: "Henry Cavil",
+    cusDate: "on 24.05.2019",
+    date: "May 25, 2019",
+    time: "4:00 PM",
+    priority: "high",
+    
+  },
+  {
+    id: 5,
+    faceIcon: "./assets/images/13.png",
+    ticketName: "Downtime since last week",
+    ticketInfo: "Updated 1 day ago",
+    cusName: "Chris Evans",
+    cusDate: "on 23.05.2019",
+    date: "May 24, 2019",
+    time: "1:00 PM",
+    priority: "normal",
+    
+  },
+  {
+    id: 6,
+    faceIcon: "./assets/images/14.png",
+    ticketName: "Referral Bonus",
+    ticketInfo: "Updated 4 day ago",
+    cusName: "Sam Smith",
+    cusDate: "on 21.05.2019",
+    date: "May 25, 2019",
+    time: "11:30 AM",
+    priority: "low",
+    
+  },
+  {
+    id: 7,
+    faceIcon: "./assets/images/15.png",
+    ticketName: "How do I change my password?",
+    ticketInfo: "Updated 6 day ago",
+    cusName: "Steve Rogers",
+    cusDate: "on 21.05.2019",
+    date: "May 24, 2019",
+    time: "1:00 PM",
+    priority: "normal",
+    
+  },
+  {
+    id: 8,
+    faceIcon: "./assets/images/16.png",
+    ticketName: "Contact Email not Linked",
+    ticketInfo: "Updated 1 day ago",
+    cusName: "Tom Cruise",
+    cusDate: "on 24.05.2019",
+    date: "May 26, 2019",
+    time: "6:30 PM",
+    priority: "high",
+    
+  },
+];
